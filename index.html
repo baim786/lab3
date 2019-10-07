@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <div id="body_border">
+    <div id="header_container">
+
+    <header>
+      <h1>Online Market</h1>
+    </header>
+    </div>
+
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <h2>New Product details</h2>
+
+  <table border="3">
+      <tr>
+        <th rowspan ="3">Products</th>
+        <td>Name</td>
+        <td>x1</td>
+        <td>x2</td>
+        <td>x3</td>
+        <td>x4</td>
+      </tr>
+
+      <tr>
+        <td>Price</td>
+        <td>3.00</td>
+        <td>5.00</td>
+        <td>7.00</td>
+        <td>9.00</td>
+      </tr>
+
+      <tr style="background-color:red;">
+
+
+        <td>Quantity</td>
+        <td>5</td>
+        <td>6</td>
+        <td>12</td>
+        <td >15</td>
+      </tr>
+        </table>
+
+      <h3>to order online, please submit form below</h3>
+
+      </div>
+
+      <form class="" action="index.html" method="post">
+        <fieldset>
+
+
+          <label for="name">Name</label>
+          <input type="text" name="name" value="" maxlength="10" class="form1" required> <br><br>
+          <label for="Choose a date">Date of Birth</label>
+          <input type="date" name="Date of birth" value="" class="form1" required><br><br>
+          <label for="email">Email</label>
+          <input type="email" name="email" value="" class="form1" required>
+          <br>
+          <fieldset>
+            <legend>What's your favourite Product?</legend>
+            <input type="radio" name="gender" value="x1" checked>
+              <label for="gender">x1</label>
+            <input type="radio" name="gender" value="x2">
+              <label for="gender">x2</label>
+            <input type="radio" name="gender" value="x3">
+              <label for="gender">x3</label>
+              </fieldset> <br><br>
+              <select class="" name="level">
+                <option value="null">Shopping Level</option>
+                <option value="ug">New</option>
+                <option value="pg">Existing</option>
+              </select>
+              <br><br>
+              <button type="submit" name="button">Submit</button>
+              <button type="reset" name="button">Reset</button>
+        </fieldset>
+      </form>
+  </body>
+</html>
